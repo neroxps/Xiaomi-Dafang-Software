@@ -1,1 +1,0 @@
-$(DEPDIR)/oss_uart401.o: oss_uart401.c 

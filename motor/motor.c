@@ -100,6 +100,8 @@ void calibrate(int axis) {
     int *minField;
     int *maxField;
     int *stepField;
+    int *minField_x;
+    int *minField_y;
     int *stepField_x;
     int *stepField_y;
     if (axis == AXIS_VERTICAL) {
@@ -118,14 +120,14 @@ void calibrate(int axis) {
     {
         stepField_x = &status.x_steps;
         stepField_y = &status.y_steps;
-        minField = &status.x_min;
+        minField_x = &status.x_min;
+        minField_y = &status.y_min;
         setMovement(MOTOR_DIRECTIONAL_LEFT, 2500);
-        while (*stepField_x != -2500 && *minField != 1 ) {
+        while (*stepField_x != -2500 && *minField_x != 1) {
             sendCommand(MOTOR_GET_STATUS, &status);
         }
-        minField = &status.y_min;
         setMovement(MOTOR_DIRECTIONAL_DOWN, 800);
-        while (*stepField_y != -800 && *minField != 1 ) {
+        while (*stepField_y != -800 && *minField_y != 1) {
             sendCommand(MOTOR_GET_STATUS, &status);
         }
         reset();

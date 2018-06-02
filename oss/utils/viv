@@ -1,9 +1,0 @@
-#!/bin/sh
-
-TOP=.
-if test -d origdir
-then
-  TOP=origdir
-fi
-
-vi `find $TOP/kernel/OS/VxWorks $TOP/setup/VxWorks -name $1`

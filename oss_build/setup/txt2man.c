@@ -1,1 +1,0 @@
-/home/eko/Dokumente/projects/Xiaomi-Dafang-Software/oss/setup/txt2man.c

@@ -1,9 +1,0 @@
-#!/bin/sh
-
-TOP=.
-if test -d origdir
-then
-  TOP=origdir
-fi
-
-vi `find $TOP/kernel/OS/FreeBSD $TOP/setup/FreeBSD $TOP/os_cmd/FreeBSD -name $1`

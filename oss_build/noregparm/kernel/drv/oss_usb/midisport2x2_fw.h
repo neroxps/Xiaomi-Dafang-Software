@@ -1,1 +1,0 @@
-/home/eko/Dokumente/projects/Xiaomi-Dafang-Software/oss/kernel/drv/oss_usb/midisport2x2_fw.h

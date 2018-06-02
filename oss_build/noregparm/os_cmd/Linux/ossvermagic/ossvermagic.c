@@ -1,1 +1,0 @@
-/home/eko/Dokumente/projects/Xiaomi-Dafang-Software/oss/os_cmd/Linux/ossvermagic/ossvermagic.c

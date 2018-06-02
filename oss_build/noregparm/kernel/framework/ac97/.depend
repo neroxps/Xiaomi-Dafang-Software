@@ -1,2 +1,0 @@
-$(DEPDIR)/oss_ac97.o: oss_ac97.c \
-  ./ac97_ext.inc  

@@ -1,9 +1,0 @@
-#!/bin/sh
-
-TOP=.
-if test -d origdir
-then
-  TOP=origdir/
-fi
-
-vi `find $TOP -name $1`

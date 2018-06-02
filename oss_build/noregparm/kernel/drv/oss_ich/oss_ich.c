@@ -1,1 +1,0 @@
-/home/eko/Dokumente/projects/Xiaomi-Dafang-Software/oss/kernel/drv/oss_ich/oss_ich.c

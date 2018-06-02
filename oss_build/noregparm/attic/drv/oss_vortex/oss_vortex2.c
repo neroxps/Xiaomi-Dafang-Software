@@ -1,1 +1,0 @@
-/home/eko/Dokumente/projects/Xiaomi-Dafang-Software/oss/attic/drv/oss_vortex/oss_vortex2.c

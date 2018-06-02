@@ -1,5 +1,0 @@
-int midiloop_instances = 1;	/* Number of loopback MIDI devs to install */
-/*
- * midiloop_instances gives the number of MIDI loopback devices to be created.
- * The default value is 1
- */

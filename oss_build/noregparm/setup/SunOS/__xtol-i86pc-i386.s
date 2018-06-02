@@ -1,1 +1,0 @@
-/home/eko/Dokumente/projects/Xiaomi-Dafang-Software/oss/setup/SunOS/__xtol-i86pc-i386.s
